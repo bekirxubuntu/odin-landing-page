@@ -76,3 +76,47 @@ button {
     flex: 1;
     padding: 64px;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 32px 20%;
+    padding-bottom: 128px;
+}
+
+.info-main {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 48px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.image {
+    border: 4px solid #3882F6;
+    border-radius: 16px;
+    width: 150px;
+    height: 150px;
+}
+
+.info-secondary {
+    text-align: center;
+    max-width: 150px;
+}
