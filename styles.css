@@ -139,3 +139,32 @@ button {
     text-align: right;
     font-weight: bold;
 }
+
+.action {
+    padding: 64px 20%;
+}
+
+.container {
+    background-color: #3882F6;
+    padding: 36px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border-radius: 16px;
+}
+
+.text-area {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.text-h1 {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.action button {
+    border: 2px solid #F9FAF8;
+}
